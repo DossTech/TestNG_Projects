@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-05T22:27:15 IST" name="Default suite" finished-at="2025-01-05T22:27:33 IST" duration-ms="17641">
+  <suite started-at="2025-01-05T23:00:23 IST" name="Default suite" finished-at="2025-01-05T23:00:34 IST" duration-ms="10327">
     <groups>
     </groups>
-    <test started-at="2025-01-05T22:27:15 IST" name="Default test" finished-at="2025-01-05T22:27:33 IST" duration-ms="17641">
+    <test started-at="2025-01-05T23:00:23 IST" name="Default test" finished-at="2025-01-05T23:00:34 IST" duration-ms="10327">
       <class name="org.dataprovider.DataProvid">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.dataprovider.DataProvid@a514af7]" started-at="2025-01-05T22:27:15 IST" name="beforeMethod" finished-at="2025-01-05T22:27:26 IST" duration-ms="10418" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.dataprovider.DataProvid@1fa268de]" started-at="2025-01-05T23:00:23 IST" name="beforeMethod" finished-at="2025-01-05T23:00:29 IST" duration-ms="5317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:org.dataprovider.DataProvid@a514af7]" started-at="2025-01-05T22:27:26 IST" name="Login" data-provider="getData" finished-at="2025-01-05T22:27:26 IST" duration-ms="402" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:org.dataprovider.DataProvid@1fa268de]" started-at="2025-01-05T23:00:29 IST" name="Login" data-provider="data" finished-at="2025-01-05T23:00:29 IST" duration-ms="223" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.dataprovider.DataProvid@a514af7]" started-at="2025-01-05T22:27:26 IST" name="afterMethod" finished-at="2025-01-05T22:27:26 IST" duration-ms="215" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.dataprovider.DataProvid@a514af7]" started-at="2025-01-05T22:27:26 IST" name="beforeMethod" finished-at="2025-01-05T22:27:32 IST" duration-ms="5825" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.dataprovider.DataProvid@1fa268de]" started-at="2025-01-05T23:00:29 IST" name="beforeMethod" finished-at="2025-01-05T23:00:33 IST" duration-ms="4508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:org.dataprovider.DataProvid@a514af7]" started-at="2025-01-05T22:27:32 IST" name="Login" data-provider="getData" finished-at="2025-01-05T22:27:33 IST" duration-ms="487" status="PASS">
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:org.dataprovider.DataProvid@1fa268de]" started-at="2025-01-05T23:00:33 IST" name="Login" data-provider="data" finished-at="2025-01-05T23:00:34 IST" duration-ms="234" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,10 +47,6 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:org.dataprovider.DataProvid@a514af7]" started-at="2025-01-05T22:27:33 IST" name="afterMethod" finished-at="2025-01-05T22:27:33 IST" duration-ms="231" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
       </class> <!-- org.dataprovider.DataProvid -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
