@@ -1,53 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-05T23:00:23 IST" name="Default suite" finished-at="2025-01-05T23:00:34 IST" duration-ms="10327">
+  <suite started-at="2025-01-06T13:00:54 IST" name="Suite" finished-at="2025-01-06T13:00:54 IST" duration-ms="217">
     <groups>
     </groups>
-    <test started-at="2025-01-05T23:00:23 IST" name="Default test" finished-at="2025-01-05T23:00:34 IST" duration-ms="10327">
-      <class name="org.dataprovider.DataProvid">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.dataprovider.DataProvid@1fa268de]" started-at="2025-01-05T23:00:23 IST" name="beforeMethod" finished-at="2025-01-05T23:00:29 IST" duration-ms="5317" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:org.dataprovider.DataProvid@1fa268de]" started-at="2025-01-05T23:00:29 IST" name="Login" data-provider="data" finished-at="2025-01-05T23:00:29 IST" duration-ms="223" status="PASS">
+    <test started-at="2025-01-06T13:00:54 IST" name="AcceptanceLevel" finished-at="2025-01-06T13:00:54 IST" duration-ms="81">
+      <class name="org.dataprovider_parameter.DataProviderAcceptanceEx">
+        <test-method signature="acceptanceTest(java.lang.String)[pri:0, instance:org.dataprovider_parameter.DataProviderAcceptanceEx@1d9b7cce]" started-at="2025-01-06T13:00:54 IST" name="acceptanceTest" data-provider="TestType" finished-at="2025-01-06T13:00:54 IST" duration-ms="16" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[abcd@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2345]]>
+                <![CDATA[Acceptance test data]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:org.dataprovider.DataProvid@1fa268de]" started-at="2025-01-05T23:00:29 IST" name="beforeMethod" finished-at="2025-01-05T23:00:33 IST" duration-ms="4508" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="Login(java.lang.String,java.lang.String)[pri:0, instance:org.dataprovider.DataProvid@1fa268de]" started-at="2025-01-05T23:00:33 IST" name="Login" data-provider="data" finished-at="2025-01-05T23:00:34 IST" duration-ms="234" status="PASS">
+        </test-method> <!-- acceptanceTest -->
+      </class> <!-- org.dataprovider_parameter.DataProviderAcceptanceEx -->
+    </test> <!-- AcceptanceLevel -->
+    <test started-at="2025-01-06T13:00:54 IST" name="IntegrationLevel" finished-at="2025-01-06T13:00:54 IST" duration-ms="6">
+      <class name="org.dataprovider_parameter.DataproviderIntergrationEx">
+        <test-method signature="integrationTest(java.lang.String)[pri:0, instance:org.dataprovider_parameter.DataproviderIntergrationEx@5c33f1a9]" started-at="2025-01-06T13:00:54 IST" name="integrationTest" data-provider="TestType" finished-at="2025-01-06T13:00:54 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[efgh@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[6789]]>
+                <![CDATA[Integration test data]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-      </class> <!-- org.dataprovider.DataProvid -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- integrationTest -->
+      </class> <!-- org.dataprovider_parameter.DataproviderIntergrationEx -->
+    </test> <!-- IntegrationLevel -->
+    <test started-at="2025-01-06T13:00:54 IST" name="UnitTest" finished-at="2025-01-06T13:00:54 IST" duration-ms="6">
+      <class name="org.dataprovider_parameter.DataproviderUnitEx">
+        <test-method signature="unitTest(java.lang.String)[pri:0, instance:org.dataprovider_parameter.DataproviderUnitEx@49139829]" started-at="2025-01-06T13:00:54 IST" name="unitTest" data-provider="TestType" finished-at="2025-01-06T13:00:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Common test data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unitTest -->
+      </class> <!-- org.dataprovider_parameter.DataproviderUnitEx -->
+    </test> <!-- UnitTest -->
+    <test started-at="2025-01-06T13:00:54 IST" name="Test1" finished-at="2025-01-06T13:00:54 IST" duration-ms="16">
+      <class name="org.dataprovider_parameter.DataProviderParameterEx">
+        <test-method signature="commonScenario(java.lang.String)[pri:0, instance:org.dataprovider_parameter.DataProviderParameterEx@72967906]" started-at="2025-01-06T13:00:54 IST" name="commonScenario" data-provider="scenarioData" finished-at="2025-01-06T13:00:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Common Scenario data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonScenario -->
+        <test-method signature="scenario1(java.lang.String)[pri:0, instance:org.dataprovider_parameter.DataProviderParameterEx@72967906]" started-at="2025-01-06T13:00:54 IST" name="scenario1" data-provider="scenarioData" finished-at="2025-01-06T13:00:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scenario1 data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario1 -->
+        <test-method signature="scenario2(java.lang.String)[pri:0, instance:org.dataprovider_parameter.DataProviderParameterEx@72967906]" started-at="2025-01-06T13:00:54 IST" name="scenario2" data-provider="scenarioData" finished-at="2025-01-06T13:00:54 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scenario2 data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario2 -->
+      </class> <!-- org.dataprovider_parameter.DataProviderParameterEx -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
 </testng-results>
