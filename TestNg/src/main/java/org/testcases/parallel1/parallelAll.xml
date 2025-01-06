@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelExecution" verbose="5" parallel="tests">
+ 
+ <suite-files>
+ <suite-file path="parallelCaseA.xml"></suite-file>
+  <suite-file path="parallelCaseB.xml"></suite-file>
+ </suite-files>
+ 
+</suite> <!-- Suite -->
